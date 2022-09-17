@@ -40,10 +40,9 @@ public class Contato {
 
     @Override
     public String toString() {
-        return "Contato{" +
-                "nome='" + nome + '\'' +
-                ", telefone='" + telefone + '\'' +
-                ", datanascimento='" + datanascimento + '\'' +
-                '}';
+        return
+                "Nome - " + nome +
+                        " | Tel - " + telefone +
+                        " | Nasc - " + datanascimento;
     }
 }

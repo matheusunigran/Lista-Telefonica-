@@ -13,6 +13,7 @@ public class DBHelper extends SQLiteOpenHelper {
     public DBHelper(@Nullable Context context) {
         super(context, "BancoLista", null, 1);
     }
+
     @Override
     public void onCreate(SQLiteDatabase sqLiteDatabase) {
         sqLiteDatabase.execSQL("create table Lista(" +
