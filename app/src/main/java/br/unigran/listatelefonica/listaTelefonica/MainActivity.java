@@ -156,7 +156,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         if (confirma != null) {
-            super.onBackPressed();
             limpar();
             String msgCancelar = "Edição cancelada";
             Toast.makeText(getApplicationContext(), msgCancelar, Toast.LENGTH_SHORT).show();
